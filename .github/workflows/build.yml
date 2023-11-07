@@ -91,7 +91,7 @@ jobs:
       - name: Build sing-box
         run: |
           cd sing-box-dev
-          make init_metacubexd
+          make init_yacd
           go build \
             -trimpath \
             -buildvcs=false \
